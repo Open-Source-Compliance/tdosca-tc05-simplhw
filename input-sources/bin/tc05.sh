@@ -1,11 +1,16 @@
 #!/bin/bash
 
-#JAR=`ls ../lib/tc05*.jar`
+JARFILE="tdosca-tc05-1.0.jar"
 
-PWD=`pwd`
-SWD=`dirname $0`
-LWD="$PWD/$SWD/../lib/"
-export CLASSPATH=$LWD:$CLASSPATH
-JAR=`ls $LWD/tc05*.jar`
+# get the absolute start directory of this script itself
+ABS_START_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-java -jar $JAR
+# because this script is installed in bin we know:
+
+TDOSCA_TC_HOME="$( dirname "${ABS_START_DIR}" )"
+TDOSCA_TC_CLASSES=${TDOSCA_TC_HOME}/lib
+
+export CLASSPATH=$TDOSCA_TC_HOME:$TDOSCA_TC_CLASSES:$CLASSPATH
+
+
+java -jar $TDOSCA_TC_CLASSES/$JARFILE

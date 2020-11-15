@@ -3,15 +3,16 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.tdosca.tc05</groupId>
-  <artifactId>tc05</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>tdosca-tc05</artifactId>
+  <version>1.0</version>
 
-  <name>tc05</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <name>tdosca-tc05</name>
+  <url>https://github.com/Open-Source-Compliance/tdosca-tc05-simplhw</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <java.version>1.8</java.version>
+    <log4j.version>2.14.0</log4j.version>
   </properties>
   <licenses>
     <license>
@@ -34,38 +35,38 @@
 
   <build>
     <plugins>
-	<!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
-       <plugin>
-          <artifactId>maven-clean-plugin</artifactId>
-          <version>3.1.0</version>
-        </plugin>
-	<!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+      <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
       <plugin>
-          <artifactId>maven-resources-plugin</artifactId>
-          <version>3.0.2</version>
-          <configuration>
-            <outputDirectory>${basedir}/target/classes/de/tdosca/common/</outputDirectory>
-            <includeEmptyDirs>true</includeEmptyDirs>
-            <resources>
-              <resource>
-                <directory>${basedir}/src/main/java/de/tdosca/common/</directory>
-                <includes>
-                  <include>LICENSE</include>
-                </includes>
-                <filtering>false</filtering>
-              </resource>
-            </resources>
-          </configuration>
-        </plugin>
-	<plugin>
+        <artifactId>maven-clean-plugin</artifactId>
+        <version>3.1.0</version>
+      </plugin>
+      <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>3.2.0</version>
+        <configuration>
+          <outputDirectory>${basedir}/target/classes/de/tdosca/common/</outputDirectory>
+          <includeEmptyDirs>true</includeEmptyDirs>
+          <resources>
+            <resource>
+              <directory>${basedir}/src/main/java/de/tdosca/common/</directory>
+              <includes>
+                <include>LICENSE</include>
+              </includes>
+              <filtering>false</filtering>
+            </resource>
+          </resources>
+        </configuration>
+      </plugin>
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-	<version>3.8.0</version>
+	<version>3.8.1</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
-        <version>3.0.2</version>
+        <version>3.2.0</version>
         <configuration>
           <archive>
             <manifest>
@@ -76,9 +77,11 @@
           </archive>
         </configuration>
       </plugin>
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
+        <version>3.3.0</version>
         <executions>
           <execution>
             <phase>package</phase>
