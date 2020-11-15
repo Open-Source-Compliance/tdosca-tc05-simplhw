@@ -11,8 +11,6 @@
       <outputDirectory>share/doc/${project.name}</outputDirectory>
       <includes>
         <include>README*</include>
-        <include>LICENSE*</include>
-        <include>NOTICE*</include>
         <include>COPYING*</include>
       </includes>
     </fileSet>
@@ -22,10 +20,6 @@
       <includes>
         <include>*.jar</include>
       </includes>
-    </fileSet>
-    <fileSet>
-      <directory>${project.build.directory}/site</directory>
-      <outputDirectory>docs</outputDirectory>
     </fileSet>
   </fileSets>
   <files>
