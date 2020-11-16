@@ -6,16 +6,14 @@
 
 - **TODO:** *organize an include of company specific data*
 
-## 2.) Included Open Source Software  
+## 2.) Index of included FOSS packages (= BOM)  
 
-### A.) Content (BOM)
+- [tdosca-tc05](#TDOSCA-TC05) 1.0 MIT
 
-- [tdosca-tc05](#TDOSCA-TC05)
-
-### B.) Compliance Artifacts for the included Open Source Software
+## 3.) Compliance Artifacts for the included FOSS packages
 
 <a name="TDOSCA-TC05"> </a>
-#### B.1) Package: tdosca-tc05
+### 3.1) Package: tdosca-tc05
 
 - Release: 1.0
 - **TODO:** *organize an include the package specific meta data*
@@ -75,3 +73,5 @@ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 ```
+
+## 4) Multiply used license texts:
