@@ -16,7 +16,8 @@
 ### 3.1) Package: tdosca-tc05
 
 - Release: 1.0
-- **TODO:** *organize an include the package specific meta data*
+- Repository: `[https://github.com/Open-Source-Compliance/tdosca-tc05-simplhw/tree/master/input-sources](https://github.com/Open-Source-Compliance/tdosca-tc05-simplhw/tree/master/input-sources)`
+- **TODO:** *organize an include of other package specific meta data*
 - Scope: Default
   - LicenseID: MIT
   - LicenseText:
