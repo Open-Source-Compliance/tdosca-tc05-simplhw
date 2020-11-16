@@ -4,7 +4,7 @@
 
 ## 1.) Company Specific Data
 
-<!-- todo: organize an include of company specific data -->
+- **TODO:** *organize an include of company specific data*
 
 ## 2.) Included Open Source Software  
 
@@ -15,10 +15,10 @@
 ### B.) Compliance Artifacts for the included Open Source Software
 
 <a name="TDOSCA-TC05"> </a>
-#### Package: tdosca-tc06
+#### B.1) Package: tdosca-tc05
 
 - Release: 1.0
-<!-- todo: add the package specific meta data -->
+- **TODO:** *organize an include the package specific meta data*
 - Scope: Default
   - LicenseID: MIT
   - LicenseText:
