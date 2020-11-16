@@ -1,5 +1,4 @@
-# Open Source Compliance File for the package complex
-# ***tdosca-tc05-simplhw***
+# Open Source Compliance File for the package complex ***tdosca-tc05-simplhw***
 
 <!-- todo: take over the global editor data -->
 
