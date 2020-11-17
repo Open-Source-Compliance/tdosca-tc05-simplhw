@@ -42,23 +42,6 @@
       </plugin>
       <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
       <plugin>
-        <artifactId>maven-resources-plugin</artifactId>
-        <version>3.2.0</version>
-        <configuration>
-          <outputDirectory>${basedir}/target/classes/de/tdosca/common/</outputDirectory>
-          <includeEmptyDirs>true</includeEmptyDirs>
-          <resources>
-            <resource>
-              <directory>${basedir}/src/main/java/de/tdosca/common/</directory>
-              <includes>
-                <include>LICENSE</include>
-              </includes>
-              <filtering>false</filtering>
-            </resource>
-          </resources>
-        </configuration>
-      </plugin>
-      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
 	<version>3.8.1</version>
