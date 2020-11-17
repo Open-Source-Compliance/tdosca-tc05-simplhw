@@ -45,7 +45,7 @@ THE SOFTWARE.
 ```
 <!-- deviantly licensed directories -->
 - Scope: DIR
-  - LicenseID: BSD-2CL
+  - LicenseID: BSD-2-Clause
   - Dir: `src/main/java/de/tdosca/common/`
   - LicenseText:
 
