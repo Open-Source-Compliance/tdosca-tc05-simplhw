@@ -38,7 +38,7 @@ To compile and install the program itself, do this:
 ## 5. Usage <a id="use"></a>
 * Change into the directory *input-sources*
 * Call ``mvn clean package`` and
-  - ``java -cp target/tdosca-tc05-1.0.jar ``
+  - ``java -jar target/tdosca-tc05-1.0.jar ``
   - or
     - ``unzip target/tdosca-tc05-1.0.zip`` and
     - ``tdosca-tc05-1.0/bin/tc05.sh``
