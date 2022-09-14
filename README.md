@@ -1,4 +1,7 @@
-# Test-Driven Open Source Compliance Automation Test Case No. 5: a Simple Hello World with JAVA and maven
+
+# Deprecated: TDOSCA-TC05
+**The case systematic has been reorganized. Valid cases now have a number >= 10 ...***
+TC05 stood for 'Test-Driven Open Source Compliance Automation Test Case No. 5: a Simple Hello World with JAVA and maven'
 
 ## General Context
 The "Test-Driven Open Source Compliance Automation" is an initiative initiated by Deutsche Telekom AG and hosted and driven by the [Open Chain Reference Tooling Work Group](http://oss-compliance-tooling.org/).
